@@ -1,0 +1,41 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* OpenSearch Official Brand Colors - Pacific Northwest Inspired */
+:root {
+  /* Core Brand Palette */
+  --ifm-color-primary: #0078a0;
+  --ifm-color-primary-dark: #0085b8;
+  --ifm-color-primary-darker: #003b5c;
+  --ifm-color-primary-darkest: #003553;
+  --ifm-color-primary-light: #4fb3e3;
+  --ifm-color-primary-lighter: #6cdcd0;
+  --ifm-color-primary-lightest: #b9d9eb;
+
+  /* Secondary/Accent Colors */
+  --ifm-color-secondary: #2cd5c4;
+  --ifm-color-warning: #ffb81c;
+  --ifm-color-accent: #963cbd;
+
+  --ifm-code-font-size: 95%;
+}
+  
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #0078a0;
+  --ifm-color-primary-dark: #00a3e0;
+  --ifm-color-primary-darker: #0085b8;
+  --ifm-color-primary-darkest: #003b5c;
+  --ifm-color-primary-light: #6cdcd0;
+  --ifm-color-primary-lighter: #b9d9eb;
+  --ifm-color-primary-lightest: #c7dfee;
+
+  /* Secondary/Accent Colors for Dark Mode */
+  --ifm-color-secondary: #2cd5c4;
+  --ifm-color-warning: #ffc460;
+  --ifm-color-accent: #ac68c5;
+}
